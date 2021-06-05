@@ -1,0 +1,33 @@
+p{
+    text-align: justify;
+}
+.breadcrumbs {
+    margin-top: 130px;
+    text-align: center;
+    background:#FFA900;
+    padding: 30px 0;
+    color: #fff;
+  }
+  
+  @media (max-width: 992px) {
+    .breadcrumbs {
+      margin-top: 143px;
+      box-sizing: border-box;
+    }
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .breadcrumbs p {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+body{
+    background-color:#eee;
+    margin-top:20px;
+}

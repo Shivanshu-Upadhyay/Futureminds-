@@ -1,0 +1,76 @@
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    outline: none;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn-primary{
+    color: #fff;
+    background: #16a083;
+}
+
+
+/* ######################foood  category############## */
+#Course{
+    padding: 5rem 0rem 10rem 0rem;
+
+}
+
+#Course h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #555;
+}
+ .course-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     
+    
+
+ }
+
+.course-container img{
+    display:block;
+    width: 100%;
+    margin: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-container{
+    margin: 0 1rem;
+    position: relative;
+}
+
+.img-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    z-index: 2;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.img-content h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.img-content a{
+    
+    font-size: 1rem;
+}

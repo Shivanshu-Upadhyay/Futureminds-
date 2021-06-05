@@ -1,0 +1,50 @@
+
+.container_1 {
+  background: #FFFFFF;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+.container_1 .map {
+  width: 45%;
+  float: left;
+}
+.container_1 .contact-form_1 {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.container_1  .contact-form_1 .title {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+}
+.container_1  .contact-form_1 .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.container_1  .contact-form_1 input,
+.container_1  .contact-form_1 textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.container_1  .contact-form_1 input::placeholder,
+.container_1  .contact-form_1 textarea::placeholder {
+  color: #242424;
+}
+.container_1  .contact-form_1 .btn-send {
+  background: #A383C9;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}

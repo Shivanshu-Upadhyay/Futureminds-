@@ -1,0 +1,82 @@
+p{
+    text-align: justify;
+}
+.breadcrumbs {
+    margin-top: 130px;
+    text-align: center;
+    background:#FFA900;
+    padding: 30px 0;
+    color: #fff;
+  }
+  
+  @media (max-width: 992px) {
+    .breadcrumbs {
+      margin-top: 143px;
+      box-sizing: border-box;
+    }
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .breadcrumbs p {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+body{
+    background-color:#eee;
+    margin-top:20px;
+}
+.border-5, .border-w-5 {
+    border-width: 5px !important;
+}
+.border-white {
+    border: 1px solid transparent;
+    border-color: #fff !important;
+}
+hr.hr-primary {
+    border-top-color: #CC164D!important;
+}
+em {
+    font-style: italic;
+}
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+.l1-txt1 {
+    font-family: Poppins-Bold;
+    font-size: 50px;
+    line-height: 1.1;
+    color: rgb(15, 14, 14);
+    text-transform: uppercase;
+}
+.txt-center {
+    text-align: center;
+}
+.p-b-25 {
+    padding-bottom: 25px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+*, *:before, *:after {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
